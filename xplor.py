@@ -32,7 +32,7 @@ def clean_education(x):
 
 @st.cache
 def load_data():
-    url='https://drive.google.com/file/d/1evDCTyuj7uVnvJOWsKiGK_UbjVPc2lMn/view?usp=sharing'
+    url='https://drive.google.com/file/d/1lCmVAKPBaIKc_Up8e3gCVufRuXIxINDo/view?usp=sharing'
     url='https://drive.google.com/uc?id=' + url.split('/')[-2]
     df = pd.read_csv(url)
     df = df[["Country", "EdLevel", "YearsCodePro", "Employment", "ConvertedComp"]]
